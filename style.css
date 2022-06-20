@@ -1,0 +1,148 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Brush+Script&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+/*
+font-family: 'Gowun Dodum', sans-serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+
+
+.top{
+    width: 100%;
+    height: 3vw;
+    background: #fff;
+}
+
+.wrap {
+   width: 100%;
+   height: calc(100% - 3vw);
+    background: #ffe4e1;
+    display: flex;
+}
+
+.wrap_left,
+.wrap_right{
+    width: 5%;
+    background: #fff;
+}
+.wrap_center{
+    width: 90%;
+}
+
+.hidden {
+    display: none;
+}
+
+.greeting {
+    margin-left: 30px;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+
+
+    text-transform: uppercase;
+}
+
+
+.top_box {
+
+}
+
+.flex_box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+.flex_box h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.quote {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+/* 20220619 */
+
+.login_box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+
+/* 로그인폼 */
+
+.log_in_form{
+    border: 5px solid #ccc;
+    padding: 10px;
+}
+.log_in_form::placeholder{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.log_in_btn{
+    margin: 20px auto 0;
+    cursor: pointer;
+    padding: 5px 15px;
+    display: block;
+    font-weight: bold;
+    border: 4px solid #ccc;
+    border-radius: 20px;
+   font-size: 0.5rem;
+   background: #fff;
+}
+
+
+
+
+/* 시계박스 */
+
+.clock_box{
+    display: flex;
+    justify-content: end;
+    height: 10%;
+    font-weight: bold;
+    margin: 5px 5px  0 0;;
+}
+
